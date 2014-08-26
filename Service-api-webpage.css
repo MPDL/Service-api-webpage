@@ -6,6 +6,7 @@
 body {
 	background-color: #FFF;
 	background-image: linear-gradient(to right, #F0F0F0, #FFF 40%, #F0F0F0);
+	font-family: Arial, sans-serif;
 }
 .page {
 	max-width: 1400px;
@@ -45,21 +46,18 @@ body {
 	clear: right;
 	position: relative;
 	margin-left: 370px;
-	margin-bottom: 40px;
 	top: 50px;
 	
 	
 }
-.navigation a, a:visited {
-	font-family: Georgia, serif;
-	color: #04725D;
-	text-decoration: none;
+.navigation a, .navigation a:visited {
+	font-family: Arial, sans-serif;
+	color: black;
 	margin: 0 30px;
-	font-size: 16px;
+	font-size: 18px;
 }
 .navigation a:hover {
-		color: #871381;
-		text-decoration: underline;
+		color: #04725D;
 }
 .title {
 	font-family: Verdana, sans-serif;
@@ -75,16 +73,16 @@ body {
 	padding-top: 1em;
 	padding-left: 1em;
 	position: relative;
-	top: 270px;
+	top: 315px;
 	margin-bottom: -30px;
 	margin-right: -30px;
 }
 .titleimg{
-	background-image: url('puzzle-free-to-use-crop.jpg');
-	background-size: 100% 85%;
+	background-image: url('puzzle-free-to-use-crop2.jpg');
+	background-size: 100% 90%;
     background-repeat: no-repeat;
 	width: 100%;
-	height: 375px;
+	height: 400px;
 	clear: right;
 	z-index: 1;
 	margin-bottom: -40px;
@@ -97,21 +95,21 @@ body {
 	width: 100%;               
 }
 
-.services a, a:visited {
+.services span {
 	display: inline-block;
 	font-family: Verdana, sans-serif;
 	font-size: 23px;
 	color: #F0F0F0;
 	line-height: 100%;
 	text-decoration: none;
+	vertical-align: middle;
 }
 .services a:hover {
+	color: #F0F0F0;
 	text-decoration: underline;
 }
-.service1 a {
-	margin-top: 52px;
-}
-.service2 a {
+
+.service2 span {
 	margin-top: 93px;
 }
 .service1 {
@@ -125,6 +123,10 @@ body {
     width: 240px;
     float: left;
     clear: left;
+}
+.service1 span {
+	margin-top: 52px;
+	
 }
 .service2 {
 	background-image: url('jigsaw piece 2 wb.svg');
@@ -163,4 +165,11 @@ p {
 	font-family: Georgia, serif;
 	padding-left: 50px;
 	font-size: 18px;
+}
+a, a:visited {
+	color: black;
+	text-decoration: none;	
+}
+a:hover {
+	color: #04725D;
 }
