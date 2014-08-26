@@ -1,0 +1,129 @@
+@CHARSET "ISO-8859-1";
+
+* {
+	margin: 0px;
+}
+.page {
+	max-width: 1400px;
+	width: auto;
+	margin: 0 auto;
+}
+.header:after {
+	content:".";
+	diplay: block;
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+}
+
+.navbar-logo {
+    width: 215px;
+    height: 117px;
+    background-color: #E4E4E4;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 0px 10px #808080;
+    position: absolute;
+    top: 0px;
+    margin-left: 100px;
+    margin-top: 0px;
+    z-index: 100;
+    background-image: url('Mpdl-logo.png');
+    background-size: 175px 48px;
+    background-repeat: no-repeat;
+    background-position: 14px 55px;
+}
+.navigation {
+	positon: relativ;
+	margin-left: 370px;
+	margin-top: 80px;
+	
+}
+.navigation a, a:visited {
+	color: #04725D;
+	text-decoration: none;
+	margin: 0 30px;
+}
+.navigation a:hover {
+		color: #871381;
+		text-decoration: underline;
+}
+.title {
+	font-family: Universe, sans-serif;
+	font-size: 1.7em;
+	word-spacing: 0.2em;
+	float: right;
+	width: 10em;
+	min-height: 2.5em;
+	min-width: 15em;
+	color: white;
+	background-color: #005C71;
+	border-top-left-radius: 0.5em;
+	padding-top: 1em;
+	padding-left: 1em;
+	margin-top: 30px;
+	
+}
+.services {
+	float: left;
+	clear: both;
+	margin-top: 10em;
+	width: 100%;               
+}
+
+.services a {
+	display: inline-block;
+	font-family: Calibri;
+	font-size: 25px;
+	color: white;
+	line-height: 100%;
+}
+.service1 a {
+	margin-top: 2em;
+}
+.service2 a {
+	margin-top: 3.7em;
+}
+.service1 {
+	background-image: url('jigsaw piece 1 wb.svg');
+	background-size: 100%;
+    background-repeat: no-repeat;
+    height: 8.2em;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100%;
+    width: 240px;
+    float: left;
+    clear: left;
+}
+.service2 {
+	background-image: url('jigsaw piece 2 wb.svg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:13.3em;
+	text-align: center;
+	vertical-align: middle;
+
+	width: 240px;
+	float: left;
+	clear: left;
+}
+.service3 {
+	background-image: url('jigsaw piece 3 wb.svg');
+
+}
+
+p {
+	font-size: 20px;
+	font-family: Calibri, sans-serif;
+	padding-left: 50px;
+}
+.servicedoc {
+	float: left;
+	max-width: 1160px;
+}
+.servicedoc2 {
+	margin-top: 40px;
+}
+.service2  p{
+	color: red;	
+}
