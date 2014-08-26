@@ -3,12 +3,18 @@
 * {
 	margin: 0px;
 }
+body {
+	background-color: #FFF;
+	background-image: linear-gradient(to right, #F0F0F0, #FFF 40%, #F0F0F0);
+}
 .page {
 	max-width: 1400px;
 	width: auto;
 	margin: 0 auto;
+
+	
 }
-.header:after {
+.clearfix:after {
 	content:".";
 	diplay: block;
 	clear: both;
@@ -27,67 +33,92 @@
     margin-left: 100px;
     margin-top: 0px;
     z-index: 100;
-    background-image: url('Mpdl-logo.png');
+    background-image: url('Mpdl-logo2.png');
     background-size: 175px 48px;
     background-repeat: no-repeat;
     background-position: 14px 55px;
 }
+.language {
+	float: right;
+}
 .navigation {
-	positon: relativ;
+	clear: right;
+	position: relative;
 	margin-left: 370px;
-	margin-top: 80px;
+	margin-bottom: 40px;
+	top: 50px;
+	
 	
 }
 .navigation a, a:visited {
+	font-family: Georgia, serif;
 	color: #04725D;
 	text-decoration: none;
 	margin: 0 30px;
+	font-size: 16px;
 }
 .navigation a:hover {
 		color: #871381;
 		text-decoration: underline;
 }
 .title {
-	font-family: Universe, sans-serif;
+	font-family: Verdana, sans-serif;
 	font-size: 1.7em;
 	word-spacing: 0.2em;
 	float: right;
 	width: 10em;
 	min-height: 2.5em;
-	min-width: 15em;
+	min-width: 300px;
 	color: white;
 	background-color: #005C71;
 	border-top-left-radius: 0.5em;
 	padding-top: 1em;
 	padding-left: 1em;
-	margin-top: 30px;
-	
+	position: relative;
+	top: 270px;
+	margin-bottom: -30px;
+	margin-right: -30px;
+}
+.titleimg{
+	background-image: url('puzzle-free-to-use-crop.jpg');
+	background-size: 100% 85%;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 375px;
+	clear: right;
+	z-index: 1;
+	margin-bottom: -40px;
+	border-radius: 10px;
 }
 .services {
 	float: left;
 	clear: both;
-	margin-top: 10em;
+	margin-top: 50px;
 	width: 100%;               
 }
 
-.services a {
+.services a, a:visited {
 	display: inline-block;
-	font-family: Calibri;
-	font-size: 25px;
-	color: white;
+	font-family: Verdana, sans-serif;
+	font-size: 23px;
+	color: #F0F0F0;
 	line-height: 100%;
+	text-decoration: none;
+}
+.services a:hover {
+	text-decoration: underline;
 }
 .service1 a {
-	margin-top: 2em;
+	margin-top: 52px;
 }
 .service2 a {
-	margin-top: 3.7em;
+	margin-top: 93px;
 }
 .service1 {
 	background-image: url('jigsaw piece 1 wb.svg');
 	background-size: 100%;
     background-repeat: no-repeat;
-    height: 8.2em;
+    height: 130px;
     text-align: center;
     vertical-align: middle;
     line-height: 100%;
@@ -99,7 +130,7 @@
 	background-image: url('jigsaw piece 2 wb.svg');
 	background-size: 100%;
 	background-repeat: no-repeat;
-	height:13.3em;
+	height: 210px;
 	text-align: center;
 	vertical-align: middle;
 
@@ -113,8 +144,8 @@
 }
 
 p {
-	font-size: 20px;
-	font-family: Calibri, sans-serif;
+	font-size: 18px;
+	font-family: Verdana, sans-serif;
 	padding-left: 50px;
 }
 .servicedoc {
@@ -123,7 +154,13 @@ p {
 }
 .servicedoc2 {
 	margin-top: 40px;
+	margin-bottom: 40px;
 }
 .service2  p{
 	color: red;	
+}
+.service h4 {
+	font-family: Georgia, serif;
+	padding-left: 50px;
+	font-size: 18px;
 }
