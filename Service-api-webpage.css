@@ -88,7 +88,7 @@ body {
 .services {
 	float: left;
 	clear: both;
-	margin-top: 70px;
+	margin-top: 50px;
 	width: 100%;               
 }
 
@@ -131,11 +131,50 @@ body {
 	width: 240px;
 	float: left;
 	clear: left;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 .service3 {
 	background-image: url('jigsaw piece 3 wb.svg');
+}
 
+.demo_green {
+	background-image: url('Gear_green.svg');
+	background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100%;
+    width: 200px;
+    float: left;
+    clear: left;
+    margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 25px;
+}
+
+.demo_green span {
+	margin-top: 50px;
+}
+
+.box_green {
+	background-image: url('software_box_1.svg');
+	background-size: 100%;
+    background-repeat: no-repeat;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100%;
+    width: 150px;
+    float: left;
+    clear: left;
+    margin-bottom: 10px;
+	margin-right: 20px;
+	margin-left: 55px;
+}
+
+.box_green span {
+	margin-top: 50px;
 }
 
 p {
@@ -154,10 +193,17 @@ p {
 .service2  p{
 	color: red;	
 }
-.service h4 {
+h4 {
 	font-family: Georgia, serif;
 	padding-left: 50px;
 	font-size: 18px;
+}
+
+h2 {
+	font-family: Univers,​ sans-serif;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	font-size: 30px;
 }
 a, a:visited {
 	color: #04725D;
