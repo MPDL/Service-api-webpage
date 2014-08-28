@@ -10,17 +10,20 @@ body {
 }
 .page {
 	max-width: 1400px;
-	width: auto;
-	margin: 0 auto;
-
-	
+	width: 80%;
+	margin: 0 auto;	
+}
+.header {
+	position: relative;
+	margin-bottom: 5%;
 }
 .clearfix:after {
-	content:"";
-	diplay: block;
+	content:".";
+	display: block;
 	clear: both;
 	height: 0px;
 	visibility: hidden;
+	padding: 0px;
 }
 
 .navbar-logo {
@@ -42,10 +45,17 @@ body {
 .language {
 	float: right;
 }
+.navigationbuffer {
+	width: 30%;
+	min-width: 292px;
+	clear: both;
+	float: left;
+	height: 1px;
+}
 .navigation {
 	clear: right;
 	position: relative;
-	margin-left: 370px;
+	margin-bottom: 55px;
 	top: 50px;
 	
 	
@@ -61,29 +71,27 @@ body {
 	font-size: 1.7em;
 	word-spacing: 0.2em;
 	float: right;
-	width: 10em;
-	min-height: 2.5em;
-	min-width: 300px;
+	width: 26%;
+	min-width: 9.2em;
+	height: 14%;
 	color: white;
 	background-color: #005C71;
 	border-top-left-radius: 0.5em;
 	padding-top: 1em;
 	padding-left: 1em;
-	position: relative;
-	top: 315px;
-	margin-bottom: -30px;
-	margin-right: -30px;
+	position: absolute;
+	top: 70%;
+	left: 75%;
+
 }
 .titleimg{
-	background-image: url('puzzle-free-to-use-crop2.jpg');
-	background-size: 100% 90%;
-    background-repeat: no-repeat;
 	width: 100%;
-	height: 400px;
 	clear: right;
-	z-index: 1;
 	margin-bottom: -40px;
-	border-radius: 10px;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px 10px 0px;
+	background-color: white;
+	
 }
 .services {
 	float: left;
@@ -101,40 +109,51 @@ body {
 	text-decoration: none;
 	vertical-align: middle;
 }
+.services img {
+	width: 100%;
+	height: auto;
+}
+.service {
+	margin-bottom: 30px;
+}
 .service2 span {
-	margin-top: 93px;
+	position: absolute;
+	top: 43%;
+	display: block;
+	text-align: center;
+	width: 100%;
+	font-size: 19px;
 }
 .service1 {
-	background-image: url('jigsaw piece 1 wb.svg');
-	background-size: 100%;
-    background-repeat: no-repeat;
-    height: 130px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 100%;
-    width: 240px;
+    width: 20%;
+    min-width: 170px;
     float: left;
     clear: left;
-    margin-bottom: 30px;
-}
-.service1 span {
-	margin-top: 52px;
+	position: relative;
 	
 }
-.service2 {
-	background-image: url('jigsaw piece 2 wb.svg');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 210px;
+.service1 span {
+	position: absolute;
+	top: 38%;
+	display: block;
+	width: 100%;
 	text-align: center;
-	vertical-align: middle;
-	width: 240px;
+	font-size: 19px;
+}
+.service2 {
+	width: 20%;
+	min-width: 170px;
 	float: left;
 	clear: left;
-	margin-bottom: 10px;
+	position: relative;
 }
-.service3 {
-	background-image: url('jigsaw piece 3 wb.svg');
+.service3 span{
+	left: 0px;
+	top: 39%;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 19px;	
 }
 
 .demo_green {
@@ -185,6 +204,7 @@ p {
 .servicedoc {
 	float: left;
 	max-width: 1160px;
+	width: 80%;
 }
 .servicedoc2 {
 	margin-top: 40px;
@@ -211,4 +231,8 @@ a, a:visited {
 }
 a:hover {
 	color: black;
+}
+img {
+	width: 100%;
+	height: auto;
 }
