@@ -8,21 +8,23 @@
 <body>
 
 <div class="page">
-	<div class="header clearfix">
+	<div class="header">
 		<a class="navbar-logo" href="http://mpdl.mpg.de" target="_blank"></a>
 		<div class="language"><a href="index_de.html">Deutsch</a></div>
+		<div class="navigationbuffer"></div>
 		<div class="navigation">
 			<a href="http://mpdl.mpg.de" target="_blank">About the MPDL</a>
 			<a href="http://colab.mpdl.mpg.de/mediawiki/service_api" target="_blank">Impressum</a>
 		</div>
 		<div class="title">MPDL Service API</div>
-		<div class="titleimg"></div>	
+		<div class="titleimg"><img src='puzzle-free-to-use-crop2.jpg'/></div>	
 	</div>
 	<div class="content">
 		<div class="services">
 			<h2>Services</h2>
 			<div class="service clearfix">	
-				<a class="service1" href="/swc/" target="_blank">
+				<a class="service1 imglink " href="/swc/" target="_blank">
+					<img src='jigsaw piece 1 wb.svg'/>
 					<span>SWC</span></a>		
 				<div class="servicedoc">
 					<h4>SWC Service</h4>
@@ -33,18 +35,20 @@
 				</div>
 			</div>
 			<div class="service clearfix">
-				<a class="service2" href="/screenshot/" target="_blank">	
+				<a class="service2 imglink " href="/screenshot/" target="_blank">	
+					<img src="jigsaw piece 2 wb.svg"/>
 					<span>Screenshot</span>
 				</a>				
 				<div class="servicedoc servicedoc2">
 					<h4>Screenshot Service</h4>
 					<p>REST Web service to take screenshot of HTML pages.</p>
 					<p><a href="/screenshot" target="_blank">more...</a></p>
-					<p><a href="https://github.com/MPDL/screenshot-service" target="_blank">View in GitHub</a></p>
+					<p><a href="https://github.com/MPDL/screenshot-service" target="_blank">View in GitHub</a></p>		
 				</div>
 			</div>
 			<div class="service clearfix">
-				<a class="service3 service1" href="/media-conversion/" target="_blank">
+				<a class="service3 service1 imglink " href="/media-conversion/" target="_blank">
+					<img src="jigsaw piece 3 wb.svg"/>
 					<span>Media converter</span>
 				</a>
 				<div class="servicedoc">
@@ -60,9 +64,9 @@
 		<div id="demos" class="services">
 			<h2>Demos</h2>
 			<div class="service clearfix">
-				<a class="demo_green" href="/neuron-profiler/" target="_blank">
-					<span>Neuron</span><br/>
-					<span>Profiler</span></a>	
+				<a class="demo_green imglink " href="/neuron-profiler/" target="_blank">
+					<img src="Gear_green.svg"/> 
+					<span id="firstspan">Neuron</span><span>Profiler</span></a>	
 				<div class="servicedoc">
 					<h4>Neuron Profiler</h4>
 					<p>Web application to upload one SWC file, visualize it in 3D, analyse it and generate a screenshot of the file. This application uses the SWC service.</p>
@@ -74,8 +78,9 @@
 		
 		<div id="downloads" class="services">
 			<h2>Downloads</h2>
-			<div class="clearfix">
-				<a class="box_green" href="https://github.com/MPDL/java-connector" target="_blank">
+			<div class="service clearfix">
+				<a class="box_green imglink " href="https://github.com/MPDL/java-connector" target="_blank">
+					<img src="software_box_1.svg"/>
 					<span>Java<br/>Connector</span></a>	
 				<div class="servicedoc">
 					<h4>Java Connector</h4>

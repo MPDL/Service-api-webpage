@@ -7,20 +7,24 @@ body {
 	background-color: #FFF;
 	background-image: linear-gradient(to right, #F0F0F0, #FFF 40%, #F0F0F0);
 	font-family: Arial, sans-serif;
+	font-size: 1em;
 }
 .page {
 	max-width: 1400px;
-	width: auto;
-	margin: 0 auto;
-
-	
+	width: 80%;
+	margin: 0 auto;	
+}
+.header {
+	position: relative;
+	margin-bottom: 5%;
 }
 .clearfix:after {
-	content:"";
-	diplay: block;
+	content:".";
+	display: block;
 	clear: both;
 	height: 0px;
 	visibility: hidden;
+	padding: 0px;
 }
 
 .navbar-logo {
@@ -31,7 +35,7 @@ body {
     box-shadow: 0px 0px 10px #808080;
     position: absolute;
     top: 0px;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 0px;
     z-index: 100;
     background-image: url('Mpdl-logo2.png');
@@ -39,13 +43,37 @@ body {
     background-repeat: no-repeat;
     background-position: 14px 55px;
 }
+@media (max-width: 820px) {
+	.navbar-logo 
+	{
+		height: 50px;
+		width: 70%;
+		min-width: 200px;
+		background-size: auto 50px;
+		background-position: 0px 0px;
+		margin-left: 0px;	
+	}
+}
 .language {
 	float: right;
+}
+.navigationbuffer {
+	width: 30%;
+	min-width: 292px;
+	clear: both;
+	float: left;
+	height: 1px;
+}
+@media (max-width: 820px) {
+	.navigationbuffer  
+	{
+		display: none;	
+	}
 }
 .navigation {
 	clear: right;
 	position: relative;
-	margin-left: 370px;
+	margin-bottom: 55px;
 	top: 50px;
 	
 	
@@ -58,32 +86,37 @@ body {
 
 .title {
 	font-family: Verdana, sans-serif;
-	font-size: 1.7em;
+	font-size: 170%;
+	font-size: 1.7vw;
 	word-spacing: 0.2em;
 	float: right;
-	width: 10em;
-	min-height: 2.5em;
-	min-width: 300px;
+	width: 26%;
+	min-width: 9.2em;
+	height: 14%;
 	color: white;
 	background-color: #005C71;
 	border-top-left-radius: 0.5em;
 	padding-top: 1em;
 	padding-left: 1em;
-	position: relative;
-	top: 315px;
-	margin-bottom: -30px;
-	margin-right: -30px;
+	position: absolute;
+	top: 70%;
+	left: 75%;
+
+}
+@media (max-width: 600px) {
+	.title {
+		position: static;
+		font-size: 0.7em;
+	}
 }
 .titleimg{
-	background-image: url('puzzle-free-to-use-crop2.jpg');
-	background-size: 100% 90%;
-    background-repeat: no-repeat;
 	width: 100%;
-	height: 400px;
 	clear: right;
-	z-index: 1;
 	margin-bottom: -40px;
-	border-radius: 10px;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px 10px 0px;
+	background-color: white;
+	
 }
 .services {
 	float: left;
@@ -101,101 +134,86 @@ body {
 	text-decoration: none;
 	vertical-align: middle;
 }
+.service {
+	margin-bottom: 30px;
+}
 .service2 span {
-	margin-top: 93px;
-}
-.service1 {
-	background-image: url('jigsaw piece 1 wb.svg');
-	background-size: 100%;
-    background-repeat: no-repeat;
-    height: 130px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 100%;
-    width: 240px;
-    float: left;
-    clear: left;
-    margin-bottom: 30px;
-}
-.service1 span {
-	margin-top: 52px;
-	
-}
-.service2 {
-	background-image: url('jigsaw piece 2 wb.svg');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 210px;
+	position: absolute;
+	top: 43%;
+	display: block;
 	text-align: center;
-	vertical-align: middle;
-	width: 240px;
-	float: left;
-	clear: left;
-	margin-bottom: 10px;
+	width: 100%;
+	font-size: 19px;
 }
-.service3 {
-	background-image: url('jigsaw piece 3 wb.svg');
-}
-
-.demo_green {
-	background-image: url('Gear_green.svg');
-	background-size: 100%;
-    background-repeat: no-repeat;
-    height: 200px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 100%;
-    width: 200px;
+.imglink {
+	width: 20%;
+    min-width: 170px;
     float: left;
     clear: left;
-    margin-bottom: 10px;
-	margin-right: 10px;
-	margin-left: 25px;
+	position: relative;
+	margin-right: 5%;
 }
 
+.service1 span {
+	position: absolute;
+	top: 38%;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 19px;
+}
+.service3 span{
+	left: 0px;
+	top: 39%;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 19px;	
+}
+#firstspan {
+	left: 0px;
+	top: 29%;
+}
 .demo_green span {
-	margin-top: 50px;
+	left: 0px;
+	top: 60%;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 19px;
+	position: absolute;
 }
-
-.box_green {
-	background-image: url('software_box_1.svg');
-	background-size: 100%;
-    background-repeat: no-repeat;
-    height: 150px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 100%;
-    width: 150px;
-    float: left;
-    clear: left;
-    margin-bottom: 10px;
-	margin-right: 20px;
-	margin-left: 55px;
-}
-
 .box_green span {
-	margin-top: 50px;
+	left: 0px;
+	top: 50%;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 23px;
+	position: absolute;
 }
 
 p {
-	font-size: 18px;
+	font-size: 1em;
 	font-family: Verdana, sans-serif;
-	padding-left: 50px;
+}
+@media (max-width: 1100px) {
+	p {
+		font-size: 0.8em;
+	}
 }
 .servicedoc {
 	float: left;
 	max-width: 1160px;
+	width: 70%;
 }
 .servicedoc2 {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
-.service2  p{
-	color: red;	
-}
+
 h4 {
 	font-family: Georgia, serif;
-	padding-left: 50px;
 	font-size: 18px;
 }
 
@@ -207,8 +225,19 @@ h2 {
 }
 a, a:visited {
 	color: #04725D;
-	text-decoration: none;	
+	text-decoration: none;
 }
 a:hover {
 	color: black;
+}
+img {
+	width: 100%;
+	height: auto;
+	border-width: 0px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.services span {
+		color: black;
+	}
 }

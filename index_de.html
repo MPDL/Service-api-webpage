@@ -3,53 +3,57 @@
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="Service-api-webpage.css"/>
-<title>Service-Api</title>
+<title>MPDL Service Api</title>
 </head>
 <body>
 
 <div class="page">
-	<div class="header clearfix">
+	<div class="header">
 		<a class="navbar-logo" href="http://mpdl.mpg.de" target="_blank"></a>
-		<div class="language"><a href="index.html">English</a></div>
+		<div class="language"><a href="index_de.html">English</a></div>
+		<div class="navigationbuffer"></div>
 		<div class="navigation">
 			<a href="http://mpdl.mpg.de" target="_blank">Über die MPDL</a>
 			<a href="http://colab.mpdl.mpg.de/mediawiki/service_api" target="_blank">Impressum</a>
 		</div>
 		<div class="title">MPDL Service API</div>
-		<div class="titleimg"></div>	
+		<div class="titleimg"><img src='puzzle-free-to-use-crop2.jpg'/></div>	
 	</div>
 	<div class="content">
 		<div class="services">
 			<h2>Services</h2>
 			<div class="service clearfix">	
-				<a class="service1" href="/swc/" target="_blank">
+				<a class="service1 imglink " href="/swc/" target="_blank">
+					<img src='jigsaw piece 1 wb.svg'/>
 					<span>SWC</span></a>		
 				<div class="servicedoc">
 					<h4>SWC Service</h4>
-					<p>REST web service für die Arbeit mit SWC-Dateien <a href="http://www.neuronland.org/NLMorphologyConverter/MorphologyFormats/SWC/Spec.html" target="_blank">SWC</a> files. Erstelle 3D-Ansichten von  
-					 SWC-Dateien, analysiere sie mit <a href="http://cng.gmu.edu/Lm/"  target="_blank">L-Measure</a>und generiere Thumbnails</p>
+					<p>REST web service für die Arbeit mit <a href="http://www.neuronland.org/NLMorphologyConverter/MorphologyFormats/SWC/Spec.html" target="_blank">SWC-Dateien.</a> Erstelle 3D-Ansichten von 
+					SWC-Dateien, analysiere sie mit <a href="http://cng.gmu.edu/Lm/"  target="_blank">L-Measure</a> und generiere Thumbnails.</p>
 					<p><a href="/swc" target="_blank">mehr...</a></p>
-					<p><a href="https://github.com/MPDL/swc-service" target="_blank">Projekt in GitHub</a></p>
+					<p><a href="https://github.com/MPDL/swc-service" target="_blank">Projekt in Github</a></p>
 				</div>
 			</div>
 			<div class="service clearfix">
-				<a class="service2" href="/screenshot/" target="_blank">	
+				<a class="service2 imglink " href="/screenshot/" target="_blank">	
+					<img src="jigsaw piece 2 wb.svg"/>
 					<span>Screenshot</span>
 				</a>				
 				<div class="servicedoc servicedoc2">
 					<h4>Screenshot Service</h4>
 					<p>REST Web service um Screenshots von HTML-Seiten zu erstellen.</p>
 					<p><a href="/screenshot" target="_blank">mehr...</a></p>
-					<p><a href="https://github.com/MPDL/screenshot-service" target="_blank">Projekt in GitHub</a></p>
+					<p><a href="https://github.com/MPDL/screenshot-service" target="_blank">Projekt in GitHub</a></p>		
 				</div>
 			</div>
 			<div class="service clearfix">
-				<a class="service3 service1" href="/media-conversion/" target="_blank">
+				<a class="service3 service1 imglink " href="/media-conversion/" target="_blank">
+					<img src="jigsaw piece 3 wb.svg"/>
 					<span>Media converter</span>
 				</a>
 				<div class="servicedoc">
 					<h4>Media conversion service</h4>
-					<p>REST web service für die Umwandlung von Dateien verschiedener Medien. Dieser Service beruht auf <a href="http://www.imagemagick.org/" target="_blank">Imagemagick</a>
+					<p>REST web service für die Umwandlung von Dateien verschiedener Medien. Dieser Service beruht auf <a href="http://www.imagemagick.org/" target="_blank">Imagemagick</a> 
 					und seiner <a href="http://www.imagemagick.org/script/convert.php" target="_blank">Convert</a>-Funktion.</p>
 					<p><a href="/media-conversion" target="_blank">mehr...</a></p>
 					<p><a href="https://github.com/MPDL/media-conversion-service" target="_blank">Projekt in GitHub</a></p>
@@ -57,36 +61,38 @@
 			</div>
 		</div>
 		
-			<div id="demos" class="services">
+		<div id="demos" class="services">
 			<h2>Demos</h2>
 			<div class="service clearfix">
-				<a class="demo_green" href="/neuron-profiler/" target="_blank">
-					<span>Neuron</span><br/>
-					<span>Profiler</span></a>	
+				<a class="demo_green imglink " href="/neuron-profiler/" target="_blank">
+					<img src="Gear_green.svg"/> 
+					<span id="firstspan">Neuron</span><span>Profiler</span></a>	
 				<div class="servicedoc">
 					<h4>Neuron Profiler</h4>
-					<p>Web application to upload one SWC file, visualize it in 3D, analyse it and generate a screenshot of the file. This application uses the SWC service.</p>
-					<p><a href="/neuron-profiler" target="_blank">Go to demo</a></p>
-					<p><a href="https://github.com/MPDL/neuron-profiler" target="_blank">View in GitHub</a></p>
+					<p>Web application zum Hochladen von SWC-Dateien, ihrer 3D-Visualisierung, Analyse und der Erstellung von Thumbnails. Diese Anwendung benutzt den SWC service.</p>
+					<p><a href="/neuron-profiler" target="_blank">Geh zur demo</a></p>
+					<p><a href="https://github.com/MPDL/neuron-profiler" target="_blank">Projekt in GitHub</a></p>
 				</div>
 			</div>
 		</div>
 		
 		<div id="downloads" class="services">
-			<h2>Herunterladen</h2>
-			<div class="clearfix">
-				<a class="box_green" href="https://github.com/MPDL/java-connector" target="_blank">
+			<h2>Downloads</h2>
+			<div class="service clearfix">
+				<a class="box_green imglink " href="https://github.com/MPDL/java-connector" target="_blank">
+					<img src="software_box_1.svg"/>
 					<span>Java<br/>Connector</span></a>	
 				<div class="servicedoc">
 					<h4>Java Connector</h4>
-					<p>Java archive (.jar) to include in any Java Software in order to use the MPDL Service API.</p>
+					<p>Java Archiv (.jar) für die Nutzung der MPDL Service API zur Einbindung in Java Software.</p>
 					<p><a href="http://rd.mpdl.mpg.de/nexus/content/groups/public/de/mpg/mpdl/service/connector/java-connector/0.1/java-connector-0.1.jar" target="_blank">Download</a></p>
-					<p><a href="https://github.com/MPDL/java-connector" target="_blank">View in GitHub</a></p>
+					<p><a href="https://github.com/MPDL/java-connector" target="_blank">Projekt in GitHub</a></p>
 				</div>
 			</div>
 		</div>
 	</div>
-	</div>
+		
+		
 	<div class="footer">
 	</div>
 </div>
