@@ -1,65 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="116.5625"
-   height="64.25"
-   id="svg3127"
-   version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="jigsaw piece 3.svg">
-  <defs
-     id="defs3129" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="56.45494"
-     inkscape:cy="30.348259"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="463"
-     inkscape:window-height="453"
-     inkscape:window-x="175"
-     inkscape:window-y="175"
-     inkscape:window-maximized="0" />
-  <metadata
-     id="metadata3132">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-244.5625,-728.8125)">
-    <path
-       inkscape:connector-curvature="0"
-       d="m 268.26339,729.43361 c 17.29687,0 11.53125,0 23.0625,0 11.53125,0 -17.29688,21 11.53125,21 28.82813,0 0,-21 11.53125,-21 11.53125,0 17.29688,0 23.0625,0 0,5.25 0,10.5 0,21 0,10.5 23.06251,-15.75 23.06251,10.5 0,26.25001 -23.06251,0 -23.06251,10.50001 0,10.5 0,15.75 0,21 -5.76562,0 -11.53125,0 -23.0625,0 -11.53125,0 17.29688,-21 -11.53125,-21 -28.82813,0 0,21 -11.53125,21 -11.53125,0 -17.29688,0 -23.0625,0 0,-5.25 0,-10.5 0,-21 0,-10.50001 -23.0625,15.75 -23.0625,-10.50001 0,-26.25 23.0625,0 23.0625,-10.5 0,-10.5 0,-15.75 0,-21"
-       id="Kopie von Polygon12"
-       style="fill:#871481;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.25000011999999990;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none" />
-  </g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg3127" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.56 64.25" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata3132">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(-244.5625,-728.8125)">
+  <path id="Kopie von Polygon12" stroke-linejoin="miter" d="m268.26,729.43h23.062c11.531,0-17.297,21,11.531,21s0-21,11.531-21h23.062v21c0,10.5,23.063-15.75,23.063,10.5s-23.063,0-23.063,10.5v21h-23.062c-11.531,0,17.297-21-11.531-21s0,21-11.531,21h-23.062v-21c0-10.5-23.062,15.75-23.062-10.5s23.062,0,23.062-10.5v-21" fill-rule="evenodd" stroke="#FFF" stroke-linecap="butt" stroke-dasharray="none" stroke-width="1.25000011999999990" fill="#871481"/>
+ </g>
+</svg>
