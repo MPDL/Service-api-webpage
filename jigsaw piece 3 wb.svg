@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg id="svg3127" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.56 64.25" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<svg id="svg3127" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.56 64.25" height="100%" width="100%" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
  <metadata id="metadata3132">
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -11,6 +11,7 @@
   </rdf:RDF>
  </metadata>
  <g id="layer1" transform="translate(-244.5625,-728.8125)">
-  <path id="Kopie von Polygon12" stroke-linejoin="miter" d="m268.26,729.43h23.062c11.531,0-17.297,21,11.531,21s0-21,11.531-21h23.062v21c0,10.5,23.063-15.75,23.063,10.5s-23.063,0-23.063,10.5v21h-23.062c-11.531,0,17.297-21-11.531-21s0,21-11.531,21h-23.062v-21c0-10.5-23.062,15.75-23.062-10.5s23.062,0,23.062-10.5v-21" fill-rule="evenodd" stroke="#FFF" stroke-linecap="butt" stroke-dasharray="none" stroke-width="1.25000011999999990" fill="#871481"/>
+  <path id="Kopie von Polygon12" stroke-linejoin="miter" d="m268.26,729.43h23.062c11.531,0-17.297,21,11.531,21s0-21,11.531-21h23.062v21c0,10.5,23.063-15.75,23.063,10.5s-23.063,0-23.063,10.5v21h-23.062c-11.531,0,17.297-21-11.531-21s0,21-11.531,21h-23.062v-21c0-10.5-23.062,15.75-23.062-10.5s23.062,0,23.062-10.5v-21" fill-rule="evenodd" stroke="#FFF" stroke-linecap="butt" stroke-dasharray="none" stroke-width="1.25000011999999990" fill="#881482"/>
  </g>
+ <text id="text2988" style="letter-spacing:0px;word-spacing:0px;" font-weight="normal" xml:space="preserve" font-size="12px" font-stretch="normal" line-height="125%" font-variant="normal" y="35.847721" x="16.385574" font-family="Arial" font-style="normal" fill="#ffffff"><tspan id="tspan2990" x="16.385574" y="35.847721">Media converter</tspan></text>
 </svg>
